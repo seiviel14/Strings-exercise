@@ -1,0 +1,21 @@
+let my_name = "Samuel";
+let surname = "Velasquez";
+let student = my_name.concat(" ", surname);
+let upper_student = student.toUpperCase();
+let lower_student = student.toLowerCase();
+let student_length = student.length;
+let first_letter = my_name.charAt(0);
+let last_letter = surname.charAt(surname.length-1);
+let spaceless_student = student.replace(" ", "");
+let name_inside_student = student.includes(my_name);
+
+console.log(my_name);
+console.log(surname);
+console.log(student);
+console.log(upper_student);
+console.log(lower_student);
+console.log(student_length);
+console.log(first_letter);
+console.log(last_letter);
+console.log(spaceless_student);
+console.log(name_inside_student);
